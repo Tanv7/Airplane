@@ -2,10 +2,23 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
-}class Plane {
+ Plane =[] arrayPlanes
+    Plane p1=new Plane ("Airbus A320","белый",135);
+    Plane p2=new Plane ("Boeing 777-300ER","черный",0,168);
+    Plane p3=new Plane ("Airbus A320","розовый",100);
+    Plane p4=new Plane ("Су-25","камуфляж",25);
+    // Plane[] aiplanes=new Plane [4];
+    //planes[0]=a1;
+    Plane [] planes={a1,a2,a3,a4}
+
+
+
+
     private String name;
-    String length;
+    int length;
+
     private double weight;
+
 
     public void setWeight(double weight) {
         if (weight > 0)
@@ -17,7 +30,7 @@ public class Main {
         return weight;
     }
 
-    public Boeing757(String name, String length,String color,String maxCapacity, double weight) {
+    public (String name, int length,String color,int maxCapacity, double weight) {
         this.name = name;
         this.length= lenght;
         this.color=color;
@@ -34,7 +47,7 @@ public class Main {
         this.name = name;
     }
 }
-private static void printArray (String)
+
 
 
 
